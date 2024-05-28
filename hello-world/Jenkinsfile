@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code test test' 
+                echo 'Run the static analysis to the code test test test' 
             }
         }
         stage('Compile') {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'Run unit tests from the source code test' 
             }
         }
         stage('Run Integration Tests') {
